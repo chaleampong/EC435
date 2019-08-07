@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## EC435: Introduction to Financial Econometrics (Term 1/2562)
 
 You can use the [editor on GitHub](https://github.com/chaleampong/ec435/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 

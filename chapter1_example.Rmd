@@ -1,0 +1,62 @@
+---
+title: "EC435: ตัวอย่างจากบทที่ 1"
+author: "เฉลิมพงษ์ คงเจริญ"
+output:
+  html_document:
+    df_print: paged
+---
+
+
+##นำเข้าข้อมูลและสร้างกราฟ
+
+```{r  warning=FALSE}
+ptt <-read.csv("https://raw.githubusercontent.com/chaleampong/EC435/master/pttstock.csv",
+               header = TRUE, stringsAsFactors = FALSE)
+head(ptt)
+str(ptt)
+plot.ts(ptt$price, xlab = "Date", ylab ="Price")
+```
+
+##การสร้างตัวแปรผลได้ตอบแทน(log return)
+
+```{r return}
+lret <- diff(log(ptt$price))*100
+plot.ts(lret, ylab="return (%)", xlab="date")
+```
+
+
+##การคำนวณสถิติเบื้องต้น
+เราสามารถใช้ฟังก์ชัน `mean``stdev` `skewness` และ `kurtosis` ในการคำนวณหาค่าสถิติเบื้องต้น จาก package `fBasics` และฟังก์ชัน `basicStats` ในการคำนวณตัวสถิติหลายๆตัวพร้อมกัน
+```{r warning=FALSE}
+library(fBasics)
+mean(lret)
+stdev(lret)
+skewness(lret)
+kurtosis(lret)
+basicStats(lret)
+```
+
+## การทดสอบค่าเฉลี่ย
+จากค่าสถิติข้างต้น เราสามารถคำนวณค่า $t = \frac{0.077}{2.24/\sqrt{2088}}=
+1.579$ หรือใช้คำสั่ง `t.test` 
+```{r warning=FALSE}
+t.test(lret)
+```
+
+## การทดสอบการแจกแจงปกติ
+เราใช้ `normalTest`  จาก package `fBasics`ในการทดสอบการแจกแจงปกติ
+```{r warning = FALSE}
+normalTest(lret, method="jb")
+```
+
+## การคำนวณสหสัมพันธ์ในตัวเอง (Autocorrelation Function)
+```{r warning = FALSE}
+acf(lret, lag.max=25, main = "ACF of PTT Return")
+```
+
+
+## การทดสอบ Portmanteau หรือการทดสอบ White noise
+
+```{r warning = FALSE}
+Box.test(lret, lag = 10, type = "Ljung-Box")
+```

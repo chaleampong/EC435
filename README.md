@@ -6,7 +6,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ## ตัวอย่างโปรแกรม R
 
-[บทที่ 1](https://github.com/chaleampong/EC435/blob/master/chapter1_example.html)
+[บทที่ 1](https://github.com/chaleampong/EC435/blob/master/chapter1_example.md)
 
 [บทที่ 2](https://github.com/chaleampong/EC435/blob/master/chapter2_example.md)
 ### Markdown

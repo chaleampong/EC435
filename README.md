@@ -6,7 +6,7 @@
 ## เอกสารคำสอน
 
 ## Handout 
-[บทที่ 0](https://github.com/chaleampong/EC435/blob/master/chapter0_slide_1_62_ho.pdf)
+[บทที่ 0](https://github.com/chaleampong/EC435/blob/master/chapter0_slide_1_62_ho.pdf) [Noted](https://github.com/chaleampong/EC435/blob/master/chapter0_slide_1_62_noted.pdf)
 ## ตัวอย่างโปรแกรม R
 
 [บทที่ 1](https://github.com/chaleampong/EC435/blob/master/chapter1_example.md)

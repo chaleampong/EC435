@@ -36,6 +36,8 @@ plot.ts(ptt$price, xlab = "Date", ylab ="Price")
 การสร้างตัวแปรผลได้ตอบแทน(log return)
 -------------------------------------
 
+สร้างตัวแปรผลได้ตอบแทนในรูปของ log โดยใช้ `diff(log(ptt$price))*100`
+
 ``` r
 lret <- diff(log(ptt$price))*100
 plot.ts(lret, ylab="return (%)", xlab="date")
@@ -130,7 +132,7 @@ t.test(lret)
 การทดสอบการแจกแจงปกติ
 ---------------------
 
-เราใช้ `normalTest` จาก package `fBasics`ในการทดสอบการแจกแจงปกติ
+เราใช้ `normalTest` จาก package `fBasics`ในการทดสอบการแจกแจงปกติ จากค่าสถิติ = 3386 &gt; critical chi-sq ที่ df=2 (5.99) และ p-value &lt; 0.05 เราสามารถปฏิเสธสมมุติฐานหลักที่ว่า lret แจกแจงเป็น Normal
 
 ``` r
 normalTest(lret, method="jb")
@@ -147,19 +149,34 @@ normalTest(lret, method="jb")
     ##     Asymptotic p Value: < 2.2e-16 
     ## 
     ## Description:
-    ##  Fri Aug 09 20:24:39 2019 by user: User
+    ##  Thu Aug 15 10:35:34 2019 by user: User
 
 การคำนวณสหสัมพันธ์ในตัวเอง (Autocorrelation Function)
 -----------------------------------------------------
 
-``` r
-acf(lret, lag.max=25, main = "ACF of PTT Return")
-```
+จาก sample autocorrelation ที่แสดงใน ACF จะเห็นได้ว่าที่ lag ที่ 2 มีค่าแตกต่างจากศูนย์อย่างมีนัยสำคัญ
 
-![](chapter1_example_files/figure-markdown_github/unnamed-chunk-5-1.png)
+    ## 
+    ## Attaching package: 'TSA'
+
+    ## The following objects are masked from 'package:timeDate':
+    ## 
+    ##     kurtosis, skewness
+
+    ## The following objects are masked from 'package:stats':
+    ## 
+    ##     acf, arima
+
+    ## The following object is masked from 'package:utils':
+    ## 
+    ##     tar
+
+![](chapter1_example_files/figure-markdown_github/unnamed-chunk-5-1.png)![](chapter1_example_files/figure-markdown_github/unnamed-chunk-5-2.png)
 
 การทดสอบ Portmanteau หรือการทดสอบ White noise
 ---------------------------------------------
+
+เมื่อทดสอบด้ว Portmanteau test (Ljung-Box) โดยเลือกพิจารณา lag ย้อนไป 10 periods จะพบว่าค่า p-value &lt; 0.05 แสดงว่า มี autocorrelation ที่ lag ใด lag หนึ่งมีค่าไม่เท่ากับศูนย์ แสดงว่าตัวแปรมีความสัมพันธ์กับตัวเองในอดีต
 
 ``` r
 Box.test(lret, lag = 10, type = "Ljung-Box")

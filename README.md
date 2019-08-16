@@ -10,7 +10,7 @@
 ## Handout 
 -[บทที่ 0](https://github.com/chaleampong/EC435/blob/master/chapter0_slide_1_62_ho.pdf) เอกสารที่จดในห้อง --> [Noted](https://github.com/chaleampong/EC435/blob/master/chapter0_slide_1_62_noted.pdf)
 
--[บทที่ 1 อนุกรมเวลาทางการเงินและคุณลักษณะ](https://github.com/chaleampong/EC435/blob/master/chapter1_slide_1_62_ho.pdf) 
+-[บทที่ 1 อนุกรมเวลาทางการเงินและคุณลักษณะ](https://github.com/chaleampong/EC435/blob/master/chapter1_slide_1_62_ho.pdf) [เอกสารหน้าเดียว](https://github.com/chaleampong/EC435/blob/master/chapter1_slide_1_62_ho_1p.pdf)
 
 ## ตัวอย่างโปรแกรม R
 

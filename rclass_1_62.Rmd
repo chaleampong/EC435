@@ -1,0 +1,253 @@
+---
+title: "การสอนโปรแกรม R"
+author: "เฉลิมพงษ์ คงเจริญ"
+output: word_document
+      
+---
+
+
+#Why R?
+-	Powerful and flexible
+-	Free(open source)
+-	Extensive add-on software(package)
+-	Designed for statistical computing
+-	High level language
+
+#Installing R
+-	Install the latest version from: http//cran.r-project.org
+-	Install R Studio (Makes R easier) from http://www.rstudio.com
+
+นอกจากนี้ เราสามารถใช้ Rstudio บน internet โดยไม่ต้องลงโปรแกรมผ่าน https://rstudio.cloud/
+
+#Working with R
+- The R Console ‘interprets’ whatever you type
+    + Calculator
+    + Creating variables
+    + Applying function
+-	“Analysis” Script+ Interactive Exploration
+    + Static copy of what you did (reproducibility)
+    + Try things out interactively, then add to your script
+-	R revolves around functions
+    + Commands that take input, performs computations, and returns results
+    + Many come with R Base (installation), but people write external functions you can download and use
+
+##R as a calculator
+```{r}
+2+2
+2*4
+2^3
+2+(2*3)^2
+```
+
+##R variables
+-	You can create variables from within the R environment and from files on your computer
+-	R uses “=” or “<-“ to assign values to a variable name
+-	Variable names are case-sensitive, i.e. X and x are different.
+```{r}
+x<-2
+x
+```
+
+The ‘combine’ function – the function c( ) collects/combines/joins single R objects into a vector of R objects.
+
+```{r}
+x<- c(1,4,6,8)
+x
+```
+
+#What is a function?
+The c( ) command is called a function: it takes inputs and gives an output.
+-	In R, functions always go function(input) or name of function, then parentheses.  The input can be many different things, such as function(x,y,z)
+
+#R Help
+If you know the name of a function, help(function name)
+
+#Data Classes:
+	One dimensional classes(‘vectors’)
+-	Character
+-	Numeric
+-	Integer
+-	Factor
+-	Logical
+Two dimensional classes
+-	data.frame: traditional ‘Excel’ spreadsheet
+-	Matrix: two-dimensional data, composed of rows and columns
+
+##Vector functions
+```{r}
+z<-1:100
+head(z)
+tail(z)
+str(z)
+```
+
+
+##Data Subsetting
+```{r}
+x1<- 10:20
+length(x1)
+x1[1]
+x1[3:4]
+x1[c(1,5,7)]
+```
+
+##Matrices
+```{r}
+m<-1:9
+m
+mat<-matrix(m,nrow=3)
+mat
+nrow(mat)
+ncol(mat)
+dim(mat)
+```
+
+##Data Selection
+Matrices have tow ‘slots’ you can use to select data, which represent rows and columns, that are separated by a comma, so the syntax is matrix[row, column]
+
+```{r}
+mat[1,1]
+mat[1, ]
+mat[ ,1]
+```
+
+##Data Frame
+
+```{r}
+pttstock <- read.csv("https://raw.githubusercontent.com/chaleampong/EC435/master/pttstock.csv", stringsAsFactors=FALSE)
+class(pttstock)
+names(pttstock)
+str(pttstock)
+head(pttstock$price)
+```
+
+#More on Packages
+Packages are add-ons that are commonly written by users comprised of functions, data and vignettes.
+-	Use library( ) or require( ) to load the package into memory so you can use its functions.
+-	Install packages using install.packages(“PackageName”) .
+-	Use help(package=”PackageName”) to see what contents the package has.
+
+
+#Import Data
+In RStudio, we can import data files CSV, Excel, SPSS, SAS, Stata
+
+#Saving R data
+It’s very useful to be able to save collections of R objects for future analyses. Save(…, file=”name.rda”)
+When you close R, you might notice the prompt about saving your workspace in “.Rdata”.
+
+#การคำนวณผลได้ตอบแทน
+
+```{r}
+ptt.lret<-diff(log(pttstock$price))
+n<-length(pttstock$price)
+ptt.sret<-(pttstock$price[2:n]-pttstock$price[1:n-1])/(pttstock$price[1:n-1])
+pttstock$sret<-c(NA,ptt.sret)
+head(pttstock)
+write.csv(pttstock,file="pttstock.csv", row.names=FALSE)
+```
+
+##Adding to data frames
+```{r}
+pttstock$lret<-c(NA,ptt.lret)
+head(pttstock)
+```
+
+#Adding rows and columns
+
+```{r} 
+m1<-matrix(1:9, nrow=3)
+m2<-matrix(10:18, nrow=3)
+cbind(m1,m2)
+rbind(m1,m2)
+```
+
+#Other manipulations
+-	abs(x)
+-	sqrt(x)
+-	log(x)
+-	log10(x)
+-	exp(x)
+
+#Data Summarization
+##Basic statistical summarization
+- mean(x)
+- sd(x)
+- median(x)
+- quantile(x)
+- range(x)
+
+##Basic summarization plots
+- plot(x,y)
+- hist(x)
+- plot(density(x))
+
+#Basic plot
+```{r}
+plot(pttstock$price, type="l", main="Daily price of PTT", xlab="Date", 
+ylab="Price")
+hist(pttstock$lret)
+plot(density(pttstock$lret, na.rm=TRUE))
+```
+
+#Probability Distributions
+-	r for random number generation [e.g. rnorm( )]
+-	d for density [e.g. dnorm( )]
+-	p for probability [e.g. pnorm( )]
+-	q for quantile [e.g. qnorm( )]
+
+
+#Basic Statistics and tests
+
+```{r}
+mean(pttstock$lret)
+mean(pttstock$lret, na.rm = TRUE)
+sd(pttstock$lret, na.rm= TRUE)
+library(fBasics)
+s3<-skewness(pttstock$lret, na.rm= TRUE)
+s3
+T<-nrow(pttstock)
+t3<-s3/sqrt(6/T)
+t3
+k4<-kurtosis(pttstock$lret, na.rm= TRUE)
+k4
+t4<-k4/sqrt(24/T)
+t4
+normalTest(pttstock$lret,method=c("jb"))
+
+basicStats(pttstock$lret)
+```
+
+#Package zoo และ PerformanceAnalytics
+```{r}
+library(PerformanceAnalytics)
+library(xts)
+#convert data.frame to xts
+pttstock <- read.csv("https://raw.githubusercontent.com/chaleampong/EC435/master/pttstock.csv", stringsAsFactors=FALSE)
+class(pttstock$date)
+pttstock$date<-as.Date(as.character(pttstock$date), "%m/%d/%Y")
+pttstock.xts<-xts(pttstock$price, order.by=pttstock$date)
+head(pttstock.xts)
+plot(pttstock.xts)
+pttstock.xts.sret<-Return.calculate(pttstock.xts, method=c("discrete"))
+plot(pttstock.xts.sret, main = "simple return of PTT stock")
+pttstock.xts.lret<-Return.calculate(pttstock.xts, method=c("log"))
+plot(pttstock.xts.lret, main="log return of PTT stock")
+```
+
+การทำงานบน R สามารถเปลี่ยน Folder(Directory) ที่ทำงานได้ โดยเราสามารถตรวจสอบด้วยคำสั่ง getwd( ) และเปลี่ยนด้วยคำสั่ง setwd(“Folder”)
+
+```{r}
+getwd()
+#setwd()
+```
+
+เราสามารถ Save Data.Frame ได้ด้วยคำสั่ง write.csv โดยไฟล์ดังกล่าวจะปรากฏใน Folder ที่เราทำงาน
+
+```{r}
+write.csv(pttstock, file="pttreturn.csv")
+```
+
+นอกจากนี้เราสามารถ Save ทุกอย่างที่เราทำงานได้ด้วยคลิก File>Save และตั้งชื่อไฟล์แล้ว Save (ไฟล์จะอยู่ในนามสกุล .Rdata)
+```{r}
+save.image(file="pttsession.Rdata")
+```

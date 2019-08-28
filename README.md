@@ -8,9 +8,15 @@
 [เอกสารคำสอน EC435 ภาค 1/62](https://github.com/chaleampong/EC435/blob/master/ec435_lecture_all.pdf)
 
 ## เอกสารการสอน R
-[การใช้ R เบื้องต้น]
 
-[RStudio cloud]
+การใช้ R เบื้องต้น  [pdf](https://github.com/chaleampong/EC435/blob/master/rclass_1_62_note.pdf) [rmd](https://github.com/chaleampong/EC435/blob/master/rclass_1_62.Rmd)
+
+### RStudio cloud 
+
+[Add member](https://rstudio.cloud/spaces/22748/join?access_code=BBAn8filr1wkt4X%2BG1h4%2B1i75TEyjSJmQ0XJEugT)
+
+
+
 
 ## การบ้าน
 

@@ -7,6 +7,11 @@
 
 [เอกสารคำสอน EC435 ภาค 1/62](https://github.com/chaleampong/EC435/blob/master/ec435_lecture_all.pdf)
 
+## เอกสารการสอน R
+[การใช้ R เบื้องต้น]
+
+[RStudio cloud]
+
 ## การบ้าน
 
 [การบ้านครั้งที่ 1 กำหนดส่งวันที่ 30 ส.ค. 2562](https://github.com/chaleampong/EC435/blob/master/ec435_1_2562_hw1.pdf)

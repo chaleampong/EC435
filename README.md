@@ -27,6 +27,8 @@
 
 -[บทที่ 1 อนุกรมเวลาทางการเงินและคุณลักษณะ](https://github.com/chaleampong/EC435/blob/master/chapter1_slide_1_62_ho.pdf) [เอกสารหน้าเดียว](https://github.com/chaleampong/EC435/blob/master/chapter1_slide_1_62_ho_1p.pdf)
 
+-[บทที่ 2 แบบจำลองอนุกรมเวลาเส้นตรง](https://github.com/chaleampong/EC435/blob/master/chapter2_slide_1_62_ho.pdf) [เอกสารหน้าเดียว](https://github.com/chaleampong/EC435/blob/master/chapter2_slide_1_62_ho_1p.pdf)
+
 ## ตัวอย่างโปรแกรม R
 
 -[บทที่ 1](https://github.com/chaleampong/EC435/blob/master/chapter1_example.md)

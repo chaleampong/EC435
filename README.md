@@ -11,6 +11,11 @@
 
 การใช้ R เบื้องต้น  [pdf](https://github.com/chaleampong/EC435/blob/master/rclass_1_62_note.pdf) [rmd](https://github.com/chaleampong/EC435/blob/master/rclass_1_62.Rmd)
 
+## Video
+
+[การใช้โปรแกรม R คำนวณ Return และสถิติเบี้องต้น](https://youtu.be/aETKLqnSGXg)
+
+
 ### RStudio cloud 
 
 [Add member](https://rstudio.cloud/spaces/22748/join?access_code=BBAn8filr1wkt4X%2BG1h4%2B1i75TEyjSJmQ0XJEugT)
@@ -25,7 +30,7 @@
 ## Handout 
 -[บทที่ 0](https://github.com/chaleampong/EC435/blob/master/chapter0_slide_1_62_ho.pdf) เอกสารที่จดในห้อง --> [Noted](https://github.com/chaleampong/EC435/blob/master/chapter0_slide_1_62_noted.pdf)
 
--[บทที่ 1 อนุกรมเวลาทางการเงินและคุณลักษณะ](https://github.com/chaleampong/EC435/blob/master/chapter1_slide_1_62_ho.pdf) [เอกสารหน้าเดียว](https://github.com/chaleampong/EC435/blob/master/chapter1_slide_1_62_ho_1p.pdf)
+-[บทที่ 1 อนุกรมเวลาทางการเงินและคุณลักษณะ](https://github.com/chaleampong/EC435/blob/master/chapter1_slide_1_62_ho.pdf) [เอกสารหน้าเดียว](https://github.com/chaleampong/EC435/blob/master/chapter1_slide_1_62_ho_1p.pdf) [เอกสารที่จดในห้อง](https://github.com/chaleampong/EC435/blob/master/chapter1_slide_1_62_noted.pdf)
 
 -[บทที่ 2 แบบจำลองอนุกรมเวลาเส้นตรง](https://github.com/chaleampong/EC435/blob/master/chapter2_slide_1_62_ho.pdf) [เอกสารหน้าเดียว](https://github.com/chaleampong/EC435/blob/master/chapter2_slide_1_62_ho_1p.pdf)
 

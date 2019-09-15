@@ -26,6 +26,7 @@
 ## การบ้าน
 
 [การบ้านครั้งที่ 1 กำหนดส่งวันที่ 30 ส.ค. 2562](https://github.com/chaleampong/EC435/blob/master/ec435_1_2562_hw1.pdf)
+[การบ้านครั้งที่ 2 กำหนดส่งวันที่ 20 ก.ย. 2562](https://github.com/chaleampong/EC435/blob/master/HW2_1_62.pdf)
 
 ## Handout 
 -[บทที่ 0](https://github.com/chaleampong/EC435/blob/master/chapter0_slide_1_62_ho.pdf) เอกสารที่จดในห้อง --> [Noted](https://github.com/chaleampong/EC435/blob/master/chapter0_slide_1_62_noted.pdf)

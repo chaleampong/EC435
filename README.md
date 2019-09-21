@@ -29,6 +29,8 @@
 
 [การบ้านครั้งที่ 2 กำหนดส่งวันที่ 20 ก.ย. 2562](https://github.com/chaleampong/EC435/blob/master/HW2_1_62.pdf)
 
+-- [ตัวอย่างเฉลย](https://github.com/chaleampong/EC435/blob/master/EC435_2_2562_hw2_sol.pdf)
+
 [การบ้านครั้งที่ 3 กำหนดส่งวันที่ 27 ก.ย. 2562](https://github.com/chaleampong/EC435/blob/master/ec435_1_2562_hw3.pdf)
 
 ## Handout 

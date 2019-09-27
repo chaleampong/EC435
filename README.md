@@ -39,6 +39,10 @@
 
 > y<-data$y
 
+-- [ตัวอย่างเฉลยการบ้านข้อ 1](https://github.com/chaleampong/EC435/blob/master/hw3q1_sol.pdf) 
+
+-- [ตัวอย่างเฉลยการบ้านข้อ 2-4](https://github.com/chaleampong/EC435/blob/master/ec435_1_2562_hw3_sol_q2_4.pdf)
+
 ## Handout 
 -[บทที่ 0](https://github.com/chaleampong/EC435/blob/master/chapter0_slide_1_62_ho.pdf) เอกสารที่จดในห้อง --> [Noted](https://github.com/chaleampong/EC435/blob/master/chapter0_slide_1_62_noted.pdf)
 

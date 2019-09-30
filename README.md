@@ -3,6 +3,10 @@
 
 [outline](https://github.com/chaleampong/EC435/blob/master/outline_ec435_1_62.pdf)
 
+## สูตรสำหรับสอบกลางภาค
+
+[สูตร](https://github.com/chaleampong/EC435/blob/master/formula_for_mid.pdf)
+
 ## เอกสารคำสอน
 
 [เอกสารคำสอน EC435 ภาค 1/62](https://github.com/chaleampong/EC435/blob/master/ec435_lecture_all.pdf)

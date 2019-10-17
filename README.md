@@ -55,6 +55,8 @@
 
 -[บทที่ 2 แบบจำลองอนุกรมเวลาเส้นตรง](https://github.com/chaleampong/EC435/blob/master/chapter2_slide_1_62_ho.pdf) [เอกสารหน้าเดียว](https://github.com/chaleampong/EC435/blob/master/chapter2_slide_1_62_ho_1p.pdf)
   - [เอกสารที่จดในห้อง part1](https://github.com/chaleampong/EC435/blob/master/chapter2_slide_1_62_noted_part1.pdf)
+  
+- [บทที่ 4 แบบจำลอง GARCH](https://github.com/chaleampong/EC435/blob/master/chapter4_slide_1_62_ho.pdf)  [เอกสารหน้าเดียว](https://github.com/chaleampong/EC435/blob/master/chapter4_slide_1_62_1p.pdf)
 
 ## ตัวอย่างโปรแกรม R
 

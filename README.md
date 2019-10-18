@@ -55,6 +55,9 @@
 
 -[บทที่ 2 แบบจำลองอนุกรมเวลาเส้นตรง](https://github.com/chaleampong/EC435/blob/master/chapter2_slide_1_62_ho.pdf) [เอกสารหน้าเดียว](https://github.com/chaleampong/EC435/blob/master/chapter2_slide_1_62_ho_1p.pdf)
   - [เอกสารที่จดในห้อง part1](https://github.com/chaleampong/EC435/blob/master/chapter2_slide_1_62_noted_part1.pdf)
+  - [เอกสารจดในห้อง part2](https://github.com/chaleampong/EC435/blob/master/chapter2_slide_1_62_noted_part2.pdf)
+  - [ตัวอย่างการทดสอบ unit root](https://github.com/chaleampong/EC435/blob/master/urca_adf_example.pdf)
+  - [ตัวอย่างการทดสอบ GDP](https://github.com/chaleampong/EC435/blob/master/gdp_unitroot_example.pdf)
   
 [บทที่ 4 แบบจำลอง GARCH](https://github.com/chaleampong/EC435/blob/master/chapter4_slide_1_62_ho.pdf)  [เอกสารหน้าเดียว](https://github.com/chaleampong/EC435/blob/master/chapter4_slide_1_62_1p.pdf)
 

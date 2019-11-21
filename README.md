@@ -68,6 +68,7 @@
   - [เอกสารที่จดในห้อง](https://github.com/chaleampong/EC435/blob/master/chapter4_slide_1_62_noted_web.pdf)
 
 [บทที่ 5 Multivariate Time Series](https://github.com/chaleampong/EC435/blob/master/chapter5_slide_1_62_ho.pdf)  [เอกสารหน้าเดียว](https://github.com/chaleampong/EC435/blob/master/chapter5_slide_1_62_1p.pdf)
+  - [เอกสารที่จดในห้อง](https://github.com/chaleampong/EC435/blob/master/chapter5_slide_1_62_noted_web.pdf)
 
 [บทที่ 6 Cointergration](https://github.com/chaleampong/EC435/blob/master/chapter6_slide_1_62_ho.pdf)  [เอกสารหน้าเดียว](https://github.com/chaleampong/EC435/blob/master/chapter6_slide_1_62.pdf)
 

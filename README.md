@@ -77,3 +77,7 @@
 -[บทที่ 1](https://github.com/chaleampong/EC435/blob/master/chapter1_example.md)
 
 -[บทที่ 2](https://github.com/chaleampong/EC435/blob/master/chapter2_example.md)
+
+-[บทที่ 4](https://github.com/chaleampong/EC435/blob/master/chapter4_example.md)
+
+-[บทที่ 5](https://github.com/chaleampong/EC435/blob/master/chapter5_example.md)

@@ -51,6 +51,11 @@
 
 [การบ้านครั้งที่ 4 กำหนดส่งวันที่ 13 พ.ย. 2562](https://github.com/chaleampong/EC435/blob/master/ec435_1_2562_hw4.pdf)
 
+[ตัวอย่างแบบฝึกหัด VAR](https://github.com/chaleampong/EC435/blob/master/ec435_2_2560_ps4.pdf)
+  -[เฉลย](https://github.com/chaleampong/EC435/blob/master/ec435_2_2560_ps4_sol.pdf)
+
+[ตัวอย่างแบบฝึกหัด Cointegration](https://github.com/chaleampong/EC435/blob/master/ec435_2_2560_ps5_extra.pdf)
+  - [เฉลย](https://github.com/chaleampong/EC435/blob/master/ec435_2_2560_ps5_extra_sol.pdf)
 
 ## Handout 
 -[บทที่ 0](https://github.com/chaleampong/EC435/blob/master/chapter0_slide_1_62_ho.pdf) เอกสารที่จดในห้อง --> [Noted](https://github.com/chaleampong/EC435/blob/master/chapter0_slide_1_62_noted.pdf)
@@ -71,6 +76,8 @@
   - [เอกสารที่จดในห้อง](https://github.com/chaleampong/EC435/blob/master/chapter5_slide_1_62_noted_web.pdf)
 
 [บทที่ 6 Cointergration](https://github.com/chaleampong/EC435/blob/master/chapter6_slide_1_62_ho.pdf)  [เอกสารหน้าเดียว](https://github.com/chaleampong/EC435/blob/master/chapter6_slide_1_62.pdf)
+  - [เอกสารที่จดในห้อง](https://github.com/chaleampong/EC435/blob/master/chapter6_slide_1_62_noted_web.pdf)
+  - [ตัวอย่าง 6.7](https://github.com/chaleampong/EC435/blob/master/Example6_7.pdf)
 
 ## ตัวอย่างโปรแกรม R
 
@@ -81,3 +88,5 @@
 -[บทที่ 4](https://github.com/chaleampong/EC435/blob/master/chapter4_example.md)
 
 -[บทที่ 5](https://github.com/chaleampong/EC435/blob/master/chapter5_example.md)
+
+-[บทที่ 6](https://github.com/chaleampong/EC435/blob/master/chapter6_example.md)

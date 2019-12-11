@@ -51,6 +51,8 @@
 
 [การบ้านครั้งที่ 4 กำหนดส่งวันที่ 13 พ.ย. 2562](https://github.com/chaleampong/EC435/blob/master/ec435_1_2562_hw4.pdf)
 
+-- [ตัวอย่างเฉลยการบ้าน](https://github.com/chaleampong/EC435/blob/master/ec435_1_62_hw4_sol.pdf)
+
 [ตัวอย่างแบบฝึกหัด VAR](https://github.com/chaleampong/EC435/blob/master/ec435_2_2560_ps4.pdf)
   -[เฉลย](https://github.com/chaleampong/EC435/blob/master/ec435_2_2560_ps4_sol.pdf)
 

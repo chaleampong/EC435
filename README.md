@@ -29,12 +29,14 @@
 
 ## การบ้าน
 
+- [การบ้านครั้งที่ 1](https://github.com/chaleampong/EC435/blob/master/ec435_1_2563_hw1.pdf)
+
 
 
 ## Handout 
 -[บทที่ 1](https://github.com/chaleampong/EC435/blob/master/chapter0_slide_1_62_ho.pdf) เอกสารที่จดในห้อง --> [Noted](https://github.com/chaleampong/EC435/blob/master/chapter0_slide_1_62_noted.pdf)
 
--[บทที่ 2 อนุกรมเวลาทางการเงินและคุณลักษณะ](https://github.com/chaleampong/EC435/blob/master/chapter2_1_63_slide_ho.pdf)
+-[บทที่ 2 อนุกรมเวลาทางการเงินและคุณลักษณะ](https://github.com/chaleampong/EC435/blob/master/chapter2_1_63_slide_ho.pdf) เอกสารที่จดในห้อง --> [Noted](https://github.com/chaleampong/EC435/blob/master/chapter2_1_63_slide_noted.pdf)
 
 ## ตัวอย่างโปรแกรม R
 

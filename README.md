@@ -29,7 +29,7 @@
 
 ## การบ้าน
 
-- [การบ้านครั้งที่ 1](https://github.com/chaleampong/EC435/blob/master/ec435_1_2563_hw1.pdf)
+- [การบ้านครั้งที่ 1 กำหนดส่งวันศุกร์ที่ 28 ตุลาคม 2563](https://github.com/chaleampong/EC435/blob/master/ec435_1_2563_hw1.pdf)
 
 
 

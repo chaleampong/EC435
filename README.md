@@ -13,7 +13,7 @@
 
 ## เอกสารการสอน R
 
-การใช้ R เบื้องต้น  [pdf](https://github.com/chaleampong/EC435/blob/master/rclass_1_62_note.pdf) [rmd](https://github.com/chaleampong/EC435/blob/master/rclass_1_62.Rmd)
+การใช้ R เบื้องต้น  [pdf](https://github.com/chaleampong/EC435/blob/master/rclass_1_63.pdf) [rmd](https://github.com/chaleampong/EC435/blob/master/rclass_1_63.Rmd)
 
 ## Video
 

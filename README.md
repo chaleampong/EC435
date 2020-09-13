@@ -9,7 +9,7 @@
 
 ## เอกสารคำสอน
 
-[เอกสารคำสอน EC435 ภาค 1/62](https://github.com/chaleampong/EC435/blob/master/Chaleampong_IntroFinEcono_20200707.pdf)
+[เอกสารคำสอน EC435 ภาค 1/63](https://github.com/chaleampong/EC435/blob/master/Chaleampong_IntroFinEcono_20200707.pdf)
 
 ## เอกสารการสอน R
 
@@ -29,7 +29,9 @@
 
 ## การบ้าน
 
-- [การบ้านครั้งที่ 1 กำหนดส่งวันศุกร์ที่ 28 ตุลาคม 2563](https://github.com/chaleampong/EC435/blob/master/ec435_1_2563_hw1.pdf)
+- [การบ้านครั้งที่ 1 กำหนดส่งวันศุกร์ที่ 28 สิงหาคม 2563](https://github.com/chaleampong/EC435/blob/master/ec435_1_2563_hw1.pdf)
+
+- [การบ้านครั้งที่ 3 กำหนดสส่งวันศุกร์ที่ 18 กันยายน 2563](https://github.com/chaleampong/EC435/blob/master/ec435_1_2563_hw3.pdf)
 
 
 
@@ -38,7 +40,8 @@
 
 -[บทที่ 2 อนุกรมเวลาทางการเงินและคุณลักษณะ](https://github.com/chaleampong/EC435/blob/master/chapter2_1_63_slide_ho.pdf) เอกสารที่จดในห้อง --> [Noted](https://github.com/chaleampong/EC435/blob/master/chapter2_1_63_slide_noted.pdf)
 
--[บทที่ 3 แบบจำลองอนุกรมเวลาเชิงเส้นตรง](https://github.com/chaleampong/EC435/blob/master/chapter3_1_63_slide_ho.pdf)
+-[บทที่ 3 แบบจำลองอนุกรมเวลาเชิงเส้นตรง](https://github.com/chaleampong/EC435/blob/master/chapter3_1_63_slide_ho.pdf) เอกสารที่จดในห้อง --> [Noted](https://github.com/chaleampong/EC435/blob/master/chapter-_1_63_slide_noted.pdf)
+
 
 ## ตัวอย่างโปรแกรม R
 

@@ -40,7 +40,7 @@
 
 -[บทที่ 2 อนุกรมเวลาทางการเงินและคุณลักษณะ](https://github.com/chaleampong/EC435/blob/master/chapter2_1_63_slide_ho.pdf) เอกสารที่จดในห้อง --> [Noted](https://github.com/chaleampong/EC435/blob/master/chapter2_1_63_slide_noted.pdf)
 
--[บทที่ 3 แบบจำลองอนุกรมเวลาเชิงเส้นตรง](https://github.com/chaleampong/EC435/blob/master/chapter3_1_63_slide_ho.pdf) เอกสารที่จดในห้อง --> [Noted](https://github.com/chaleampong/EC435/blob/master/chapter-_1_63_slide_noted.pdf)
+-[บทที่ 3 แบบจำลองอนุกรมเวลาเชิงเส้นตรง](https://github.com/chaleampong/EC435/blob/master/chapter3_1_63_slide_ho.pdf) เอกสารที่จดในห้อง --> [Noted](https://github.com/chaleampong/EC435/blob/master/chapter3_1_63_slide_noted.pdf)
 
 
 ## ตัวอย่างโปรแกรม R

@@ -30,10 +30,14 @@
 ## การบ้าน
 
 - [การบ้านครั้งที่ 1 กำหนดส่งวันศุกร์ที่ 28 สิงหาคม 2563](https://github.com/chaleampong/EC435/blob/master/ec435_1_2563_hw1.pdf)
+  
+  --> [ตัวอย่างเฉลยการบ้านครั้งที่ 1](https://github.com/chaleampong/EC435/blob/master/ec435_1_2563_hw1_sol.pdf)
+ 
+ --> [ตัวอย่างเฉลยการบ้านครั้งที่ 2](https://github.com/chaleampong/EC435/blob/master/ec435_1_2563_hw2_sol.pdf)
 
 - [การบ้านครั้งที่ 3 กำหนดสส่งวันศุกร์ที่ 18 กันยายน 2563](https://github.com/chaleampong/EC435/blob/master/ec435_1_2563_hw3.pdf)
 
-
+--> [ตัวอย่างเฉลยการบ้านครั้งที่ 3 ข้อ 1](https://github.com/chaleampong/EC435/blob/master/ec435_1_2563_hw3q1_sol.pdf)  [ตัวอย่างเฉลยการบ้านครั้งที่ 3 ข้อ 2-4](https://github.com/chaleampong/EC435/blob/master/ec435_1_2563_hw3_sol.pdf)
 
 ## Handout 
 -[บทที่ 1](https://github.com/chaleampong/EC435/blob/master/chapter0_slide_1_62_ho.pdf) เอกสารที่จดในห้อง --> [Noted](https://github.com/chaleampong/EC435/blob/master/chapter0_slide_1_62_noted.pdf)

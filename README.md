@@ -46,6 +46,9 @@
 
 -[บทที่ 3 แบบจำลองอนุกรมเวลาเชิงเส้นตรง](https://github.com/chaleampong/EC435/blob/master/chapter3_1_63_slide_ho.pdf) เอกสารที่จดในห้อง --> [Noted หน้า 1-37](https://github.com/chaleampong/EC435/blob/master/chapter3_1_63_slide_noted_p1_37.pdf)
 [Noted หน้า 38-68](https://github.com/chaleampong/EC435/blob/master/chapter3_1_63_slide_noted_p38_68.pdf)
+ [Noted หน้า 69-88](https://github.com/chaleampong/EC435/blob/master/chapter3_1_63_slide_noted_p69_88.pdf)
+ 
+-[บทที่ 4 สมการถดถอยอนุกรมเวลา](https://github.com/chaleampong/EC435/blob/master/chapter4_1_63_slide_noted.pdf)
 
 ## ตัวอย่างโปรแกรม R
 

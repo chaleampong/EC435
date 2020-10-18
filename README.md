@@ -39,6 +39,8 @@
 
 --> [ตัวอย่างเฉลยการบ้านครั้งที่ 3 ข้อ 1](https://github.com/chaleampong/EC435/blob/master/ec435_1_2563_hw3q1_sol.pdf)  [ตัวอย่างเฉลยการบ้านครั้งที่ 3 ข้อ 2-4](https://github.com/chaleampong/EC435/blob/master/ec435_1_2563_hw3_sol.pdf)
 
+- [การบ้านครั้งที่ 4 กำหนดส่งวันพุธที่ 28 ตุลาคม 2563](https://github.com/chaleampong/EC435/blob/master/ec435_1_2563_hw4.pdf) ข้อมูลที่ใช้ [download](https://github.com/chaleampong/EC435/blob/master/set50_m0619.csv)
+
 ## Handout 
 -[บทที่ 1](https://github.com/chaleampong/EC435/blob/master/chapter0_slide_1_62_ho.pdf) เอกสารที่จดในห้อง --> [Noted](https://github.com/chaleampong/EC435/blob/master/chapter0_slide_1_62_noted.pdf)
 

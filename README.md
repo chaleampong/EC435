@@ -52,6 +52,8 @@
  
 -บทที่ 4 สมการถดถอยอนุกรมเวลา [noted](https://github.com/chaleampong/EC435/blob/master/chapter4_1_63_slide_noted.pdf)
 
+-บทที่ 5 แบบจำลอง GARCH [noted](https://github.com/chaleampong/EC435/blob/master/chapter5_1_63_slide_noted_web.pdf)
+
 ## ตัวอย่างโปรแกรม R
 
 -[บทที่ 1](https://github.com/chaleampong/EC435/blob/master/chapter1_example.md)

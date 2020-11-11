@@ -54,6 +54,8 @@
 
 -บทที่ 5 แบบจำลอง GARCH [noted](https://github.com/chaleampong/EC435/blob/master/chapter5_1_63_slide_noted_web.pdf)
 
+-บทที่ 6 แบบจำองอนุกรมเวลาเชิงพหุ [noted](https://github.com/chaleampong/EC435/blob/master/chapter6_1_63_slide_noted_web.pdf)
+
 ## ตัวอย่างโปรแกรม R
 
 -[บทที่ 1](https://github.com/chaleampong/EC435/blob/master/chapter1_example.md)
